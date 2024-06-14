@@ -31,31 +31,26 @@ function App() {
 
   return (
     <>
-      {/* <div><Header /></div>
-      <div><Footer /></div> */}
+      {/* 
+      <div><Header /></div>
+      <div><Footer /></div> 
+      <div><ArticlePage /></div>
+      <div><DashboardWriteArticle /></div>
+      <div><DashboardWriteArticle2 /></div> 
+      
+      */}
 
       <div><TopArticles /></div>
       <div><CardCarousel /></div>
       <div><AboutUs /></div>
-      {/*
-      <div><ArticlePage /></div>
-      */}
-
-      {/* <div><ApplicationForm /></div> */}
-
-      {/* 
+      <div><ApplicationForm /></div>
       <div><Login /></div>
       <div><SignUp /></div>
       <div><LoginDashboard /></div>
       <div><WriterProfile /></div>
-    */}
-      {/* <div><DashboardWriteArticle /></div> */}
-      {/* <div><DashboardWriteArticle2 /></div> */}
-
-  
-      {/* 
       <div><DashboardWriterConsultations /></div>
-    <div><DashboardWriterProfile /></div> */}
+      <div><DashboardWriterProfile /></div>
+    
     </>
   )
 }
