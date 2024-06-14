@@ -34,11 +34,11 @@ function App() {
       {/* <div><Header /></div>
       <div><Footer /></div> */}
 
-      {/* <div><TopArticles /></div> */}
-      {/*
+      <div><TopArticles /></div>
       <div><CardCarousel /></div>
-      <div><ArticlePage /></div>
       <div><AboutUs /></div>
+      {/*
+      <div><ArticlePage /></div>
       */}
 
       {/* <div><ApplicationForm /></div> */}
@@ -50,7 +50,7 @@ function App() {
       <div><WriterProfile /></div>
     */}
       {/* <div><DashboardWriteArticle /></div> */}
-      <div><DashboardWriteArticle2 /></div>
+      {/* <div><DashboardWriteArticle2 /></div> */}
 
   
       {/* 
