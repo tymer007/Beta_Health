@@ -56,14 +56,15 @@ import axios from 'axios';
             <strong>Introduction</strong>
         <p>Breast cancer remains one of the most prevalent and impactful diseases affecting women worldwide. Despite its high incidence, ongoing research and advancements in medical science offer hope through improved diagnostic techniques, innovative treatments, and effective preventive measures.</p>
 
-        <h2>New Diagnostic Techniques</h2>
+        <strong>New Diagnostic Techniques</strong>
         <p>Early detection is crucial in the fight against breast cancer. Recent advancements in diagnostic technology, such as 3D mammography and molecular breast imaging, have significantly improved the accuracy of detecting early-stage breast cancer. These technologies allow for better visualization of breast tissue, enabling more precise identification of abnormalities.</p>
 
-        <h2>Innovative Treatment Options</h2>
+        <strong>Innovative Treatment Options</strong>
         <p>The treatment landscape for breast cancer has evolved dramatically over the past decade. Targeted therapies, immunotherapy, and personalized medicine have revolutionized the approach to treating different types of breast cancer. For instance, HER2-positive breast cancers, which were once considered difficult to treat, now have multiple targeted treatment options that have significantly improved patient outcomes.</p>
 
-        <h2>Preventive Measures</h2>
+        <strong>Preventive Measures</strong>
         <p>Prevention is a critical aspect of reducing breast cancer risk. Lifestyle changes, such as maintaining a healthy weight, regular physical activity, and limiting alcohol consumption, can lower the risk. Additionally, genetic testing for BRCA1 and BRCA2 mutations helps identify individuals at higher risk, enabling proactive monitoring and preventive measures, such as prophylactic surgeries or chemoprevention.</p>
+        <img src="Pregnant.jpg" alt="Related Article" className="mb-2 w-3/5 text-center  h-auto object-cover rounded-lg" />
 
         <strong>Emotional and Psychological Support</strong>
         <p>Breast cancer diagnosis and treatment can be emotionally and psychologically challenging. Support systems, including counseling, support groups, and mental health services, play a vital role in helping patients navigate their journey. Survivor stories and peer support groups provide encouragement and practical advice, fostering a sense of community and resilience.</p>
@@ -80,25 +81,25 @@ rounded-lg lg:w-1/5 lg:ml-4 mt-4 lg:mt-0 p-2">
               <div className="mb-4 items-center">
 
 
-                <img src="index.jpeg" alt="Related Article" className="mb-2 w-full text-xl  h-auto object-cover rounded-lg" />
+                <img src="Pregnant.jpg" alt="Related Article" className="mb-2 w-full text-xl  h-auto object-cover rounded-lg" />
 
-                <a href="#" className="text-white font-semibold hover:underline hover:text-customOrange">{article.relatedArticleTitle}Mbappe Speaks On World Cup</a>
+                <a href="#" className="text-white font-semibold hover:underline hover:text-customOrange">{article.relatedArticleTitle}Does taking antibiotics during pregnancy harm an unborn child?</a>
               </div>
               {/* Repeat for other related articles */}
               <div className="mb-4 items-center">
 
 
-                <img src="index.jpeg" alt="Related Article" className="mb-2 w-full text-lg  h-auto object-cover rounded-lg" />
+                <img src="drugs.jpg" alt="Related Article" className="mb-2 w-full text-lg  h-auto object-cover rounded-lg" />
 
-                <a href="#" className="text-white font-semibold hover:underline hover:text-customOrange">{article.relatedArticleTitle}Mbappe Speaks On World Cup</a>
+                <a href="#" className="text-white font-semibold hover:underline hover:text-customOrange">{article.relatedArticleTitle}How to administer quick and effective first aid</a>
               </div>
 
               <div className="mb-4 items-center">
 
 
-                <img src="index.jpeg" alt="Related Article" className="mb-2 w-full text-lg  h-auto object-cover rounded-lg" />
+                <img src="openwound.png" alt="Related Article" className="mb-2 w-full text-lg  h-auto object-cover rounded-lg" />
 
-                <a href="#" className="text-white font-semibold hover:underline hover:text-customOrange">{article.relatedArticleTitle}Mbappe Speaks On World Cup</a>
+                <a href="#" className="text-white font-semibold hover:underline hover:text-customOrange">{article.relatedArticleTitle}What is the best antiseptic used to treat open wounds?</a>
               </div>
             </div>
           </div>
