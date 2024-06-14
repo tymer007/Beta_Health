@@ -34,23 +34,23 @@ function App() {
       {/* 
       <div><Header /></div>
       <div><Footer /></div> 
-      <div><ArticlePage /></div>
-      <div><DashboardWriteArticle /></div>
       <div><DashboardWriteArticle2 /></div> 
       
-      */}
+    */}
 
       <div><TopArticles /></div>
       <div><CardCarousel /></div>
       <div><AboutUs /></div>
-      <div><ApplicationForm /></div>
-      <div><Login /></div>
-      <div><SignUp /></div>
-      <div><LoginDashboard /></div>
+      <div><ArticlePage /></div>
       <div><WriterProfile /></div>
+      <div><SignUp /></div>
+      <div><Login /></div>
+      <div><ApplicationForm /></div>
+      <div><LoginDashboard /></div>
+      <div><DashboardWriteArticle /></div>
       <div><DashboardWriterConsultations /></div>
       <div><DashboardWriterProfile /></div>
-    
+
     </>
   )
 }

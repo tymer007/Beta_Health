@@ -17,7 +17,7 @@ const CardCarousel = () => {
     const cards = Array(8).fill({
         title: 'Balanced Diet: What Is It and How to Achieve It',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing emot. Curabitur vel egestas lectus, ac suscipit odio.',
-        image: 'https://via.placeholder.com/150'
+        image: 'nutritiondiet.jpg'
     });
 
     const headerCategory = {

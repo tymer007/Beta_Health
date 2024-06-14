@@ -19,8 +19,8 @@ const DashboardWriterProfile = () => {
           <DashboardItem icon={<LogOut size={20} />} text="Log Out" />
         </Dashboard>
         <div className="flex-1 p-8">
-          <h1 className="text-2xl font-bold">Coming Soon...</h1>
-          <p>This feature is in the works.</p>
+          <h1 className="text-2xl font-bold">Consultations</h1>
+          <p>Schedule and upcoming your consultations</p>
         </div>
       </div>
     </>

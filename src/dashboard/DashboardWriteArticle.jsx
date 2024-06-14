@@ -85,7 +85,7 @@ const DashboardWriterProfile = () => {
                 type="text"
                 name="title"
                 placeholder="Enter your title..."
-                className="placeholder-gray-500 placeholder-opacity-75 placeholder:text-6xl text-6xl pl-1 border-none focus:outline-none"
+                className="placeholder-gray-500 placeholder-opacity-75 placeholder:text-2xl text-2xl pl-1 border-none focus:outline-none"
                 required
               />
 

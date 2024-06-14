@@ -25,7 +25,7 @@ const AboutUs = () => (
           description="Connect with top medical professionals for personalized advice and treatment plans from the comfort of your home."
         />
         <FeatureCard
-          src="index.jpeg"
+          src="Articles.jpg"
           title="Health Related Articles"
           description="Discover our handpicked selection of detailed articles covering common medical conditions, wellness tips, and healthcare news."
         />
@@ -35,9 +35,9 @@ const AboutUs = () => (
           description="We have a team of dedicated professionals from various specialties ready to provide you with personalized advice."
         />
       </div>
-      <p className="text-gray-600 mt-8 text-center text-xl">
+      {/* <p className="text-gray-600 mt-8 text-center text-xl sm:text-sm">
         At Beta Health, our mission is to empower individuals with trusted medical insights and wellness advice from experienced professionals. We provide personalized consultations, an extensive library of health articles, and a supportive community to help you make informed decisions about your health. Committed to accuracy, increasing health awareness, and offering tailored solutions, our team strives to guide you on your unique health journey. Join us to access reliable information, connect with experts, and take charge of your well-being.
-      </p>
+      </p> */}
     </div>
   </div>
 );

@@ -26,8 +26,8 @@ export default function Dashboard ({ children }) {
                         <img src="user-286.png" className="w-10 h-10 rounded-md" />
                         <div className={`flex justify-between items-center overflow-hidden transition-all ${expanded ? "w-52 ml-3" : "w-0"} `}>
                             <div className="leading-4">
-                                <h4 className="font-semibold text-gray-200">Expert</h4>
-                                <span className="text-xs text-gray-400">expert@gmail.com</span>
+                                <h4 className="font-semibold text-gray-200">Emily Carter</h4>
+                                <span className="text-xs text-gray-400">emilycarter@gmail.com</span>
                             </div>
                             <MoreVertical size={20} color="#ffffff" />
                         </div>

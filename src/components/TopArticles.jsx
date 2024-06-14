@@ -5,35 +5,35 @@ import Loader from './Loader';
 const articles = [
   {
     title: 'Does taking antibiotics during pregnancy harm an unborn child?',
-    image: 'DAWN FM DANCEHALL PLAYLIST.png',
+    image: 'Pregnant.jpg',
   },
   {
     title: 'How to administer quick and effective first aid',
-    image: 'DAWN FM DANCEHALL PLAYLIST.png',
+    image: 'drugs.jpg',
   },
   {
     title: 'Everything to know about your heart health, myths and facts.',
-    image: 'DAWN FM DANCEHALL PLAYLIST.png',
+    image: 'pexels-pixabay-40568 1.jpg',
   },
   {
     title: 'What is the best antiseptic used to treat open wounds?',
-    image: 'DAWN FM DANCEHALL PLAYLIST.png',
+    image: 'openwound.png',
   },
   {
     title: 'Did cancer exist before man-made chemicals were around?',
-    image: 'DAWN FM DANCEHALL PLAYLIST.png',
+    image: 'cancer_topic_1024.jpg',
   },
   {
     title: 'Can a man’s testosterone be boosted naturally?',
-    image: 'DAWN FM DANCEHALL PLAYLIST.png',
+    image: 'workout.jpeg',
   },
   {
     title: 'How can Lyme disease last for years?',
-    image: 'DAWN FM DANCEHALL PLAYLIST.png',
+    image: 'Lice.png',
   },
   {
     title: 'Want to know how antibiotics kill viruses?',
-    image: 'DAWN FM DANCEHALL PLAYLIST.png',
+    image: 'Laboratory.jpg',
   },
 ];
 

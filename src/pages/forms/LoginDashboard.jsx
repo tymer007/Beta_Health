@@ -86,7 +86,7 @@ const LoginDashboard = () => {
         </div>
       </div>
       <div className="md:w-1/3 hidden md:flex items-center justify-center">
-        <img src="index.jpeg" alt="Form" className="w-full h-full object-cover" />
+        <img src="Image (4).png" alt="Form" className="w-full h-full object-cover" />
       </div>
     </div>
   );

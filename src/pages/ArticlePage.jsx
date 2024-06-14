@@ -27,7 +27,7 @@ import axios from 'axios';
         <div className="flex flex-col lg:flex-row">
           <div className="w-full lg:w-4/5">
             <div className="mb-4">
-              <h1 className="text-5xl font-bold mb-2">{article.title}</h1>
+              <h1 className="text-5xl font-bold mb-2">{article.title}How to avoid Breast Cancer</h1>
 
               <div className="border-t border-gray-600 flex p-2 w-full justify-between">
                 <div className='flex justify-around items-center '>
@@ -35,22 +35,41 @@ import axios from 'axios';
                   <img src="user-286.png" className="w-10 h-10 rounded-md" />
                   <div className='flex justify-between items-center transition-all'>
                     <div className="leading-4">
-                      <h4 className="font-semibold text-gray-500">{article.author}</h4>
-                      <span className="text-sm text-gray-500">{article.primarySpecialty}</span>
+                      <h4 className="font-semibold text-gray-500">{article.author}Emily Carter</h4>
+                      <span className="text-sm text-gray-500">{article.primarySpecialty}Gynaecologist</span>
                     </div>
                   </div>
                 </div>
 
-                <div className='flex justify-around items-center text-gray-500'>{new Date(article.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}  <Calendar className="w-5 h-5 ml-1" />
+                <div className='flex justify-around items-center text-gray-500'>
+                  28th May, 2024
+                  {/* {new Date(article.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}  <Calendar className="w-5 h-5 ml-1" /> */}
                 </div>
 
               </div>
 
 
             </div>
-            <img src={article.imageUrl} alt="Article" className="mb-4 w-full h-auto object-cover" />
+            <img src="happywomen.jpeg" alt="Article" className="mb-4 w-4/5 h-auto object-cover" />
 
             <div className="prose" dangerouslySetInnerHTML={{ __html: article.content }} />
+            <strong>Introduction</strong>
+        <p>Breast cancer remains one of the most prevalent and impactful diseases affecting women worldwide. Despite its high incidence, ongoing research and advancements in medical science offer hope through improved diagnostic techniques, innovative treatments, and effective preventive measures.</p>
+
+        <h2>New Diagnostic Techniques</h2>
+        <p>Early detection is crucial in the fight against breast cancer. Recent advancements in diagnostic technology, such as 3D mammography and molecular breast imaging, have significantly improved the accuracy of detecting early-stage breast cancer. These technologies allow for better visualization of breast tissue, enabling more precise identification of abnormalities.</p>
+
+        <h2>Innovative Treatment Options</h2>
+        <p>The treatment landscape for breast cancer has evolved dramatically over the past decade. Targeted therapies, immunotherapy, and personalized medicine have revolutionized the approach to treating different types of breast cancer. For instance, HER2-positive breast cancers, which were once considered difficult to treat, now have multiple targeted treatment options that have significantly improved patient outcomes.</p>
+
+        <h2>Preventive Measures</h2>
+        <p>Prevention is a critical aspect of reducing breast cancer risk. Lifestyle changes, such as maintaining a healthy weight, regular physical activity, and limiting alcohol consumption, can lower the risk. Additionally, genetic testing for BRCA1 and BRCA2 mutations helps identify individuals at higher risk, enabling proactive monitoring and preventive measures, such as prophylactic surgeries or chemoprevention.</p>
+
+        <strong>Emotional and Psychological Support</strong>
+        <p>Breast cancer diagnosis and treatment can be emotionally and psychologically challenging. Support systems, including counseling, support groups, and mental health services, play a vital role in helping patients navigate their journey. Survivor stories and peer support groups provide encouragement and practical advice, fostering a sense of community and resilience.</p>
+
+        <strong>Conclusion</strong>
+        <p>The ongoing advancements in breast cancer research and treatment bring hope and optimism to millions of women worldwide. By staying informed and proactive, individuals can better manage their health and well-being. This article aims to educate and empower readers with the knowledge needed to navigate the complexities of breast cancer with hope and resilience.</p>
           </div>
 
           <div className="w-full h-full bg-customDark 
